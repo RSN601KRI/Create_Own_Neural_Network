@@ -1,0 +1,5 @@
+import torch
+
+checkpoint_path = 'saved_models/checkpoint_vgg16.pth'  # Update with your actual path
+checkpoint = torch.load(checkpoint_path)
+print(checkpoint.keys())
